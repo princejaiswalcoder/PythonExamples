@@ -1,5 +1,5 @@
-# import function
+import dictionary
 # type the file name after import and then click RUN 👆
 
-from Loops import for_loop
+# from Loops import for_loop
 # importing a file directory 👆
