@@ -7,6 +7,13 @@ myList = {
       "Computer":"Excellent"
     }
 }
+# Characteristics Of Dicitionary
+# 1. It's Unordered Set
+# 2. Not A Sequence
+# 3. Indexed By Key ,Not Numbers
+# 4. Keys Must Be Unique
+# 5. Dictionaries Are Mutable
+
 myList["class"] = 12
 # print("Dictionary Are Mutable",myList)
 updateDict = {
@@ -44,12 +51,17 @@ updateDict = {
 # }
 # print(f"Created Dictionary {d}")
 
-M = {}
-n = int(input("How Many Students ?"))
-for a in range(n):
-  r,m = eval(input("Enter Roll No. & Marks :"))
-  M[r] = m # it works like this
-  #M is dictionary , r is key and m is value
-  # <dictionary>[key] = <value>
-print(f"Created Dictionary {M}")
+# M = {}
+# n = int(input("How Many Students ?"))
+# for a in range(n):
+#   r,m = eval(input("Enter Roll No. & Marks :"))
+#   M[r] = m # it works like this
+   #M is dictionary , r is key and m is value
+   # <dictionary>[key] = <value>
+# print(f"Created Dictionary {M}")
+
+# Write a program to print a dictionary that share a common value with all the keys
+# keys_ex = dict.fromkeys([10,20,30],"Prince")
+# fromkeys is a fucntion , PRINCE acts as a value and shares it will all the keys
+# print(keys_ex)
 
